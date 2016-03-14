@@ -22,4 +22,5 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'ffi-rzmq', '~> 2.0.4'
 
   s.add_development_dependency 'logstash-devutils'
+  s.add_development_dependency 'logstash-codec-plain'
 end
